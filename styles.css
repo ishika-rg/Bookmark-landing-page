@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+}
+
+.navbar .container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap; 
+  }
+
+
+  #navmenu .btn:hover{
+      background-color: white;
+      border: 1px solid hsl(0, 94%, 66%);
+      color: hsl(0, 94%, 66%);
+   }
+   #navmenu .nav-item a:hover {
+    color: hsl(0, 94%, 66%) !important; 
+}
+
+
+  
+
+  .btn-group .A:hover{
+    background-color: white;
+    border: 1px solid  hsl(231, 69%, 60%);
+      color:  hsl(231, 69%, 60%);
+
+  }
+  .btn-group .B{
+      background-color: lightgray;
+  }
+  .btn-group .B:hover{
+    background-color: white;
+    border: 1px solid   hsl(229, 8%, 60%);
+      color:   hsl(229, 8%, 60%);
+
+  }
+
+
+
+ 
+
+
+  .nav-tabs .nav-link {
+    border: 0px solid transparent !important;
+  }
+#myTab .nav-item .nav-link:hover{
+    color: hsl(0, 94%, 66%) !important;
+    border-bottom: 3px solid hsl(0, 94%, 66%) !important;
+}
+
+.para{
+    color: hsl(229, 8%, 60%);
+    
+}
+.info{
+    color: hsl(229, 8%, 60%);
+}
+/*---------------------------part4---------------------------*/
+section .card{
+    border: none;
+    box-shadow: 0 1px 10px 0 hsl(231, 69%, 60%);
+    border-radius: 10px;
+}
+  .card .btn:hover{
+    background-color: white;
+    border: 1px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+ }
+ .row .col2{
+    padding-top: 20px;
+ }
+ .row .col3{
+    padding-top: 40px;
+ }
+
+
+
+ .accordion-button:hover{
+     color: hsl(0, 94%, 66%);
+ }
+ .row .accordion-button:focus{
+    
+     border-color: none;
+     box-shadow: none;
+ }
+ .row .accordion-button:not(.collapsed){
+     color: #000;
+     background-color: white;
+     box-shadow: none;
+ }
+ .row .accordion-body{
+     color: hsl(229, 8%, 60%);
+ }
+ /*------------------------------part5------------------------*/
+
+ .part5{
+     background-color: hsl(231, 69%, 60%);
+ }
+ section .tag{
+    white-space: pre;
+
+}
+.inp .input-group{
+    width: 50%;
+}
+.inp .form-control{
+
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.inp .btn{
+    position: relative;
+    
+    margin-left: 10px;
+}
+    
+
+ .part5 .inp .btn{
+     color: white;
+     background-color: hsl(0, 94%, 66%);
+ }
+ .part5 .inp .btn:hover{
+    background-color: white;
+    border: 1px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+ }
+ .part5 .inp .form-control:hover{
+    background-color: white;
+    border: 1px solid hsl(0, 94%, 66%);
+    
+ }
+
+ /*------------------------------------footer---------------------------*/
+ .footer{
+     background-color: hsl(229, 31%, 21%);
+ }
+ .footer .sec1{
+     gap: 15px;
+ }
+ .sec1 .link{
+     text-decoration: none;
+
+ }
+ .sec1 a:hover{
+     color:hsl(0, 94%, 66%) !important;
+
+ }
+/*-------------------------------------responsive css-------------------------------*/
+
+@media only screen and (max-width: 768px){
+  
+
+    /*===========part1============*/
+    .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .col1{
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+       
+       
+    }
+    .container h2{
+        text-align: center;
+    }
+    .row .btn-group{
+        display: flex;
+    }
+
+
+
+   #myTab{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+   }
+   #myTabContent .row{
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+   }
+   #myTabContent .row .info{
+       text-align: center;
+   }
+   #myTabContent  .col2 .btn{
+       display: none;
+   }
+
+   .container section .row{
+       display: block;
+   }
+   
+   
+   .part5 .input-group{
+       display: block;
+       align-items: center;
+       justify-content: center;
+      
+   }
+
+   .inp .input-group{
+    display: block;
+   }
+   
+   .details{
+       text-align: center;
+   }
+
+
+   .footer .details a{
+       display: block;
+      
+   }
+   .footer  .sec2{
+       margin-top: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+   }
+
+}

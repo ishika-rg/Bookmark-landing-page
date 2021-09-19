@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <title>Bookmark landing page</title>
+
+ 
+</head>
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container p-5">
+      <img class="navbar-brand" src="./images/logo-bookmark.svg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> 
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collpase navbar-collpase fs-6" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">FEATURES</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">PRICING</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">CONTACTS</a>   
+                </li>
+                <li>
+                  <button type="button" class="btn btn-danger">LOGIN</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!----------------------------------------part1------------------------------------------>
+<div class="container p-5">
+  <div class="row">
+    <div class="col-md-6 col1">
+      <h1>A Simple Bookmark Manager</h1>
+      <p class="para">A clean and simple interface to organize your favourite websites. Open a new 
+        browser tab and see your sites load instantly. Try it for free.
+        
+      </p>
+      <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-primary A">Get it on Chrome</button></div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <button type="button" class="btn  B">Get it on Firefox</button></div>
+    </div>
+   
+    <div class="col-md-6 col2">
+      <img class="img-fluid" src="images/illustration-hero.svg">
+     
+    </div>
+  </div>
+</div>
+
+
+<!------------------------------------------------part2-------------------------->
+ <div class="container p-5 text-center">
+   <h2>Features</h2>
+   <p class="para"> Our aim is to make it quick and easy for you to access your avourite websites. 
+    Your bookmarks sync between your devices so you can access them on the go.
+  </p>
+
+ </div>
+ <!--------------------------------part3------------------------------------------>
+
+<div class="container py-1 text-center">
+
+  <ul class="nav nav-tabs justify-content-md-center" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active text-dark " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link text-dark" id="profile-tab"  data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"> Speedy Searching</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link text-dark" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="row">
+        <div class="col mt-5  col1">
+          <img class="img-fluid" src="images/illustration-features-tab-1.svg">
+
+        </div>
+        <div class="col pt-5  pe-5 m-5 col2">
+          <h2 class="text-md-start">Bookmark in one click</h2>
+          
+          <p class="text-md-start info">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+            gives you complete control over how you manage your favourite sites.</p>
+          
+          <button type="button " class="btn btn-primary d-sm-none d-md-flex  align-self-start">More Info</button>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+      <div class="row">
+        <div class="col mt-5  col1">
+          <img class="img-fluid" src="images/illustration-features-tab-2.svg">
+
+        </div>
+        <div class="col pt-5  pe-5 m-5 col2">
+          <h2 class="text-md-start">Intelligent search</h2>
+          
+          <p class="text-md-start info"> Our powerful search feature will help you find saved sites in no time at all. 
+            No need to trawl through all of your bookmarks.</p>
+          
+          <button type="button" class="btn btn-primary  d-sm-none d-md-flex align-self-start">More Info</button>
+        </div>
+      </div>
+      
+      
+
+    </div>
+    <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+      <div class="row">
+        <div class="col mt-5  col1">
+          <img class="img-fluid" src="images/illustration-features-tab-3.svg">
+
+        </div>
+        <div class="col pt-5  pe-5 m-5 col2">
+          <h2 class="text-md-start"> Share your bookmarks</h2>
+          
+          <p class="text-md-start info"> Easily share your bookmarks and collections with others. Create a shareable 
+            link that you can send at the click of a button.</p>
+          
+          <button type="button" class="btn btn-primary d-sm-none d-md-flex align-self-start">More Info</button>
+        </div>
+      </div>
+      
+
+
+    </div>
+  </div>
+  
+</div>
+
+<!-------------------------------------part4-------------------------------------->
+
+<div class="container p-5 text-sm-center justify-content-sm-center">
+  <h2>Download the extension</h2>
+  <p class="para text-sm-justify">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+    got a favourite you’d like us to prioritize.</p>
+
+
+<section>
+  <div class="row text-sm-center p-5 g-4">
+    <div class="col-md">
+
+      <div class="card c1" style="width: 15rem;">
+        <img class="card-img-top h-25 w-25 d-block mx-auto pt-sm-4" src="images/logo-chrome.svg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> Add to Chrome</h5>
+          <p class="card-text para">Minimum version 62</p>
+          <img src="images/bg-dots.svg" class="img-fluid pb-sm-3">
+          <a href="#" class="btn btn-primary">Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md col2">
+      <div class="card c3"  style="width: 15rem;">
+        <img class="card-img-top h-25 w-25 d-block mx-auto pt-sm-4" src="images/logo-firefox.svg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> Add to Firefox</h5>
+          <p class="card-text para">Minimum version 55</p>
+          <img src="images/bg-dots.svg" class="img-fluid pb-sm-3">
+          <a href="#" class="btn btn-primary">Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-md col3">
+
+      <div class="card c3"  style="width: 15rem;">
+        <img class="card-img-top h-20 w-25 d-block mx-auto pt-sm-4" src="images/logo-opera.svg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> Add to Opera</h5>
+          <p class="card-text para">Minimum version 46</p>
+          <img src="images/bg-dots.svg" class="img-fluid pb-sm-3">
+          <a href="#" class="btn btn-primary">Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+
+<!------------------------------accordion--------------------------->
+
+<div class="container p-5 text-center justify-content-center">
+  <h2>Frequently Asked Questions</h2>
+  <p class="para text-justify">Here are some of our FAQs. If you have any other questions you’d like 
+    answered please feel free to email us.</p>
+
+    <section class="pt-5 ">
+      <div class="row">
+        <div class="col-md-6 my-0 mx-auto">
+
+
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is Bookmark?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-sm-start">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  How can I request a new browser?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-sm-start">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Is there a mobile app?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-sm-start">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headinghree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsehree" aria-expanded="false" aria-controls="flush-collapsehree">
+                  What about other Chromium browsers?
+                </button>
+              </h2>
+              <div id="flush-collapsehree" class="accordion-collapse collapse" aria-labelledby="flush-headinghree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-sm-start">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <a href="#" class="btn btn-primary">More Info</a>
+            
+          </div>
+
+        </div>
+      </div>
+
+
+     
+      
+
+    </section>
+
+</div>
+<!---------------------------------part5--------------------------------------->
+<div class="container-fluid p-5 part5 text-center">
+  <section>
+    <p class="text-center text-light">35,000+ ALREADY JOINED</p>
+    <h2 class="tag text-sm-center text-light">Stay up-to-date with what <br>we’re doing</h2>
+
+    <div class="inp d-md-flex justify-content-center">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control position-relative w-50" placeholder="Enter your email address " aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group2">
+          <button class="btn p-md-2" type="button">Contact Us</button>
+        </div>
+      </div>
+    </div>
+
+
+  
+      
+      
+   
+  </section>
+
+
+</div>
+
+
+
+
+
+<!-------------------------------------------footer---------------------------------->
+<div class="container-fluid p-5 footer">
+  <div class="details d-md-flex justify-content-between">
+    
+    <div class="sec1 mx-3 d-md-flex justify-content-between">
+     
+      
+      
+      <img src="images/logo-bookmark.svg">
+      <a href="#" class="link text-light">FEATURES</a> 
+      <a href="#" class="link text-light">PRICING</a> 
+      <a href="#" class="link text-light">CONTACT</a> 
+    </div>
+
+    <div class="sec2 ">
+      <img src="images/icon-facebook.svg">
+      <img src="images/icon-twitter.svg">
+    </div>
+
+  </div>
+</div>
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+ 
+</body>
+</html>
